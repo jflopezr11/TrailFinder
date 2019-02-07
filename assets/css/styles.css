@@ -1,0 +1,16 @@
+.card-image {
+    widht: 350px;
+    height: 260px;
+}
+
+div.card-content {height: 350px;}
+
+span.card-title {font-weight: bolder;}
+
+/* img .generatedImgs {} */
+
+.center-cols > .col {
+    float:none;             /* disable the float */
+    display: inline-block; /* make blocks inline-block */
+    text-align: initial;  /* restore text-align to default */
+}
