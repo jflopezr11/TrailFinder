@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css" />
+
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trail Finder</title>
+</head>
+
+<body class="home" class="scrollspy">
+    <!-- Navbar -->
+    <header>
+        <nav class="nav-wraper green darken-4">
+            <div class="container">
+                <a href="#" class="brand-logo text-align">Trail Finder</a>
+                <a href="#" class="sidenav-trigger" data-target="mobile-links">
+                    <i class="material-icons">menu</i>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#search">Search</a></li>
+                    <li><a href="#popular">Popular Trails</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <ul class="sidenav" id="mobile-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#search">Search</a></li>
+                    <li><a href="#popular">Popular Trails</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <br><br>
+
+    <!-- Carousel -->
+    <section class="slider-container">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="images/hiking18.jpg"> <!-- first image -->
+                    <div class="caption center-align">
+                        <h2 class="headings">Find your Trail!</h2>
+                        <h5 class="light grey-text text-lighten-3">"In every walk with nature one receives far more than
+                            he seeks."
+                            -John Muir.
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/hiking2.jpg"> <!-- second image -->
+                    <div class="caption left-align">
+                        <h2 class="headings">Reconnect With Nature!</h2>
+                        <h5 class="light grey-text text-lighten-3">'Wilderness is not a luxury but a necessity of the
+                            human spirit.'
+                            -Edward Abbey</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/hiking15.jpg">
+                    <!-- third image -->
+                    <div class="caption right-align">
+                        <h2 class="headings">Enjoy Nature's Beauty</h2>
+                        <h5 class="light grey-text text-lighten-3">"And into the forest I go, To lose my mind and find
+                            my soul.”
+                        </h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/hiking19.jpg"> <!-- fourth image -->
+                    <div class="caption center-align">
+                        <h2 class="headings">Explore Nature!</h2>
+                        <h5 class="light grey-text text-lighten-3">"Between every two pines there is a doorway to a new
+                            world" -
+                            John Muir.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/hiking21.jpg"> <!-- fourth image -->
+                    <div class="caption center-align">
+                        <h2 class="headings">Explore Nature!</h2>
+                        <h5 class="light grey-text text-lighten-3">"Between every two pines there is a doorway to a new
+                            world" -
+                            John Muir.</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Search Bar -->
+    <section id="search" class="section section-search green darken-4 white-text center scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="cols s12">
+                    <h3>Search for Trails</h3>
+                    <div class="input-field">
+                        <input type="text" class="white gray-text autocomplete" placeholder="Enter city or ZIP code"
+                            required>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- // Maps and Weather  -->
+    <section class="section section-icons grey lighten-4 center">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card-panel">
+                        <i class="material-icons large green-text">add_location</i>
+                        <h4>Save Your Favorite Trails</h4>
+                        <p>Discover Nature</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card-panel">
+                        <i class="material-icons large green-text">wb_sunny</i>
+                        <h4>Check Weather</h4>
+                        <p>Discover Nature</p>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card-panel">
+                        <i class="material-icons large green-text">landscape</i>
+                        <h4>Popular Trails Near You</h4>
+                        <p>Discover Nature</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Go pro/Get Insider Access/Popular Trails -->
+    <section id="popular" class="section section-popular scrollspy">
+        <div class="container">
+            <div class="row">
+                <div class="col s4 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/maps3.jpg">
+                            <span class="card-title">Get Pro</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        Browse hand-curated trail maps as well as trail reviews, photos and activity recordings
+                        contributed by a community of hikers, trail runners and more.
+                    </div>
+                </div>
+                <div class="col s4 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/directions.jpg">
+                            <span class="card-title">Get Directions</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        Never get lost finding the trail. With just one click, get driving directions right to the trail
+                        head. Access has never been so easy.
+                    </div>
+                </div>
+                <div class="col s4 m4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="images/subscribe.jpg">
+                            <span class="card-title">Subscribe to News</span>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        Get the latest about trail conditions, best gear and more.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+  <!-- Cards  -->
+
+  <div class="genGoogleMap">
+    <!-- Google Maps generated will go here -->
+  </div>
+
+  <div class='row'>
+    <div class="test">
+      <!-- The generated cards go here -->
+    </div>
+  </div>
+
+  
+  <!-- <div class= "container"> -->
+    <div class="row">
+      <div class="weather">
+        <!-- The generated cards go here -->
+      </div>
+    </div>
+  <!-- </div> -->
+
+
+
+    <!-- Gallery -->
+    <section id="gallery" class="section section-gallery scrollspy">
+        <div class="container">
+            <h4 class="center">
+                <span class="green-text">Photo Gallery</span>
+                <div class="row">
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?hikes" alt="#"
+                            class=" responsive-img materialboxed">
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?hiking" alt="#"
+                            class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?mountains" alt="#"
+                            class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?mountain" alt="#"
+                            class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?camping" alt="#"
+                            class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?backpacking" alt="#"
+                            class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?hiker" alt="#"
+                            class="materialboxed responsive-img">
+                    </div>
+                    <div class="col s12 m3">
+                        <img src="https://source.unsplash.com/1600x900/?trail" alt="#"
+                            class="materialboxed responsive-img">
+                    </div>
+                </div>
+
+        </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Follow us section -->
+    <section class="section section-follow green darken-4 white-text center">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h4>Follow Us On Social Media</h4>
+                    <a href="#" class="white-text">
+                        <i class="fab fa-facebook fa-4x"></i>
+                    </a>
+                    <a href="https://www.instagram.com/its_a_me_mari00/" class="white-text">
+                        <i class="fab fa-instagram fa-4x"></i>
+                    </a>
+                    <a href="#" class="white-text">
+                        <i class="fab fa-twitter-square fa-4x"></i>
+                    </a>
+                    <a href="https://github.com/jflopezr11/TrailFinder" class="white-text">
+                        <i class="fab fa-github fa-4x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- About us section -->
+
+    <footer class="page-footer grey darken-3">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5>About Us</h5>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida, nunc in feugiat
+                        porttitor, lorem
+                        ex sagittis nisi, vitae efficitur sapien augue sed turpis. </p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam gravida, nunc in feugiat
+                        porttitor, lorem
+                        ex sagittis nisi, vitae efficitur sapien augue sed turpis. . </p>
+
+                </div>
+                <div class="col s12 l4 offset-l2">
+                    <h5>Connect</h5>
+                    <ul>
+                        <li><a href="#" class="gre-text text-lighten-3">Facebook</a></li>
+                        <li><a href="#" class="gre-text text-lighten-3">Twitter</a></li>
+                        <li><a href="#" class="gre-text text-lighten-3">LinkedIn</a></li>
+                        <li><a href="#" class="gre-text text-lighten-3">Instagram</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright grey darken-4">
+            <div class="container center-align">&copy; 2019</div>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
+        <!--JavaScript at end of body for optimized loading-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script>
+
+
+            $(document).ready(function () {
+                //sidenav
+                const sideNav = document.querySelector('.sidenav');
+                M.Sidenav.init(sideNav, {});
+
+                $('.slider').slider();
+
+                // Material Boxed
+                $('.materialboxed').materialbox();
+            });
+            // Scrollspy
+            const ss = document.querySelectorAll(".scrollspy");
+            M.ScrollSpy.init(ss, {});
+
+
+
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        
+          <!-- Projct's Javascript -->
+        <script src="assets/javascript/source.js"></script>
+
+</body>
+
+</html>
